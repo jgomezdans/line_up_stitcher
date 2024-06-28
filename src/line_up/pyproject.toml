@@ -1,0 +1,15 @@
+[project]
+name = "line_up"
+version = "0.1.0"
+description = "A tool that lines up two or more images with some spatial overlap matching common points on them."
+authors = [{ name = "Jose Gómez-Dans", email = "jose.gomez-dans@kcl.ac.uk" }]
+license = "AGPL"
+readme = "README.md"
+dependencies = ["numpy>=1.21", "opencv-python>=4.5"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 79
