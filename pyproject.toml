@@ -1,6 +1,6 @@
 [project]
 name = "line_up"
-version = "0.2.0"
+version = "0.3.0"
 description = "A tool that lines up two or more images with some spatial overlap matching common points on them."
 authors = [{ name = "Jose Gómez-Dans", email = "jose.gomez-dans@kcl.ac.uk" }]
 readme = "README.md"
